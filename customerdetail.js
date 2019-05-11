@@ -13,7 +13,6 @@ $(function () {
                 +"Street : "+ product.address.street+"<br>"+"City : "+product.address.city +"<br>"+"Region : "+product.address.region+"<br>"+"PostalCode : "+product.address.postalCode+ "<br>"+"Country : "+product.address.country+"<br>"+"Phone number : "+product.address.phone +'</td> </tr>'
 
             $('#datafull').append(tableRow);
-
         } else { console.log("fail") }
     });
 
