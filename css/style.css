@@ -1,0 +1,174 @@
+
+
+        .title {
+            text-align: center;
+            color: black;
+            background-color: #ffffff;
+
+            font-size: 34pt;
+            padding: 5px;
+        }
+
+        .title2 {
+            text-align: center;
+            color: black;
+            background-color: #ffffff;
+
+            font-size: 20pt;
+            padding: 5x;
+        }
+        .title3 {
+            text-align: left;
+            color: black;
+            background-color: #ffffff;
+
+            font-size: 16pt;
+            padding: 9x;
+        }
+
+        .sizefont1{
+            font-size: 20pt;
+            
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .border{
+            border-color: rgb(82, 113, 197);
+            border-style: solid;
+            border-width: 2px;
+            
+        }
+        .border2{
+            border-color: black;
+            border-style: solid;
+            border-width: 2px;
+            
+        }
+
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        .item {
+            text-align: right;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+          }
+        .img {
+            background-image: url("https://i.imgur.com/DYS0eHm.gif");
+            background-size: cover;
+            width: 100px;
+            height: 150px;
+            border-radius: 50%;
+
+            background-position: center;
+            border: 1px solid #ddd;
+            padding: 5px;
+            width: 150px;
+        }
+
+        .bgimg {
+            background-image: url("https://www.dualshockers.com/wp-content/uploads/2016/12/Playstation-4-2016-For-Honor-4K-Wallpapers.jpg");
+            background-size: cover;
+            width: 100px;
+            height: 150px;
+        
+            background-position: center;
+            border-color: rgb(82, 113, 197);
+            border-style: solid;
+            border-width: 2px;
+            padding: 5px;
+            width: 100%;
+            height: 100% ;
+        }
+
+
+        .itemleft {
+            text-align: left;
+        }
+
+        .itemmid {
+            text-align: center;
+        }
+
+        .bordertop{
+        border-top: solid; 
+
+        }
+        .thfont{
+            font-family: 'Kanit', sans-serif;
+
+        }
+
+        @media screen and (max-width: 1024px) {
+            [class*="col-4"] {
+                width: 50%;
+                text-align: left;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            [class*="col-4"] {
+                width: 100%;
+                text-align: left;
+            }
+        }
+
