@@ -6,7 +6,7 @@ $(function () {
         if (status == 'success') {
             var n =0;
             var products = data.customerJson;
-            var tableHead = '<tr> <th>customerID</th> <th>companyName</th> <th>contactName</th>  <th>contactTitle</td></tr>'
+            var tableHead = '<tr> <th>CustomerID</th> <th>CompanyName</th> <th>ContactName</th>  <th>ContactTitle</td></tr>'
             $('#tablecus').append(tableHead);
             for (var index in products) { 
                 
