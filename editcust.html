@@ -156,37 +156,39 @@
                   </tr>
                   <tr>
                     <td>Contacttitle </td>
-                    <td><input type="text" id="contacttitle"
-                        pattern="[A-Z][a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s -_]{1,50}" required></td>
+                    <td><input type="text" id="contacttitle" pattern="[a-zA-Z0-9- ._/]{1,50}" required></td>
                   </tr>
                   <tr>
                     <td>Street</td>
-                    <td><input type="text" id="street"  ></td>
+                    <td><input type="text" id="street"
+                        pattern="[a-zA-Z0-9- a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s -_]{1,}" required></td>
                   </tr>
 
                   <tr>
                     <td>City</td>
-                    <td><input type="text" id="city"  pattern="[.A-Z][.a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s -_]{1,50}" required></td>
+                    <td><input type="text" id="city"
+                        pattern="[.A-Z][.a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s -_]{1,35}" required></td>
                   </tr>
 
                   <tr>
                     <td>Region</td>
-                    <td><input type="text" id="region"  pattern="[.A-Z][.a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s -_]{1,50}" required></td>
+                    <td><input type="text" id="region"
+                        pattern="[.A-Z][.a-zA-Z\u00C0-\u00D6\u00D8-\u00f6\u00f8-\u00ff\s -_]{1,35}" required></td>
                   </tr>
 
                   <tr>
                     <td>Postalcode</td>
-                    <td><input type="number" id="postalcode" ></td>
+                    <td><input type="text" id="postalcode" pattern="[a-zA-Z0-9- _.]{1,}" required></td>
                   </tr>
 
                   <tr>
                     <td>Country</td>
-                    <td><input type="text" id="country"></td>
+                    <td><input type="text" id="country" pattern="[A-Z][a-zA-Z0-9- .]{1,30}" required></td>
                   </tr>
 
                   <tr>
                     <td>Phone</td>
-                    <td><input type="text" id="phone"></td>
+                    <td><input type="text" id="phone" pattern="[0-9- _.)(]{1,}"></td>
                   </tr>
 
                 </table><br>
